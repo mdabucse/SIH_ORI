@@ -7,6 +7,7 @@ import 'package:flutter/material.dart';
 // import 'package:sample/login/login.dart';
 // import 'package:sample/welcome_pages/state.dart';
 import 'package:sample/summa.dart';
+import 'package:sample/taxi/taxi_list.dart';
 import 'firebase_options.dart';
 import 'package:sample/welcome_pages/welcome1.dart';
 
@@ -16,8 +17,8 @@ void main() {
   runApp(
       MaterialApp(
         debugShowCheckedModeBanner: false,
-        // home: WelcomePage1(),
-        home: HotelBookingPage(),
+        home: WelcomePage1(),
+        // home: taxi_list(),
       ),
     );
 }
